@@ -1,0 +1,29 @@
+h1.pagetitle{
+	color: red;
+}
+
+main{
+	margin-top: 10px;
+}
+
+div{
+	padding: 5px;
+}
+
+h2.blueheading{
+	color: blue;
+}
+
+h2.yellowheading{
+	color: yellow;
+}
+
+footer{
+	background-color: pink;
+	text-align: center;
+	padding: 10px;
+}
+
+span.rights{
+	text-decoration: italic;
+}

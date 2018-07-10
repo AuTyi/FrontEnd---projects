@@ -1,0 +1,19 @@
+nav {
+    background-color: aquamarine;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 80px 20px 0px 0px;
+}
+li {
+    display: inline;
+}
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+a {
+    margin: 15px;
+}

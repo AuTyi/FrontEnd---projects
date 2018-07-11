@@ -1,0 +1,13 @@
+body{
+	background-color: blue;
+}
+
+p.numberone{
+	background-color: red;
+	color: white;
+}
+
+.numbertwo{
+	background-color: yellow;
+	color: white;
+}

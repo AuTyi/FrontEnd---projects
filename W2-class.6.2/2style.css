@@ -1,0 +1,106 @@
+main {
+	width: 850px;
+	margin: 0 auto;
+	text-align: center;
+}
+header{
+    width: 650px;
+	margin: 0 auto;
+}
+.logo {
+	height: 75px;
+	margin-top: 10px;
+	float: left;
+}
+nav{
+    float: right;
+}
+li {
+	list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 50px;
+	text-align: center;
+}
+.fas, .far {
+	display:block;
+}
+.clearfix {
+    clear: both;
+}
+h2, h3, h4 {
+	text-align: center;
+	font-style: italic;
+}
+table {
+	width: 100%;
+	border: 1px solid grey;
+	border-spacing: 0; 
+	margin-bottom: 50px;
+}
+th{
+	background-color: #00e6e6;
+	text-align: left;
+	padding: 10px;
+	color: white;
+}
+tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+td {
+	text-align: center;
+	border: 1px solid grey;
+	padding: 10px;
+}
+td:first-child {
+	text-align: left;
+	}
+input[type=text] {
+	border: none;
+	border-bottom: 1px solid #00e6e6;
+	margin-bottom: 10px;
+    margin-top: 10px;
+    height: 33px;
+}
+input[type=text]::placeholder {
+	color: #00e6e6;
+}
+input[type=text]:nth-child(3) {
+	width: 100%;
+	}
+input[type=text]:nth-child(1) {
+	float: left;
+	width: 48%;
+}
+input[type=text]:nth-child(2) {
+	float: right;
+	width: 48%;
+}
+input[type=checkbox], input[type=radio] {
+	margin: 15px;
+}
+select {
+	width: 100%;
+	padding: 10px;
+	border-color: #00e6e6;
+	color: #00e6e6;
+}
+button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #00e6e6;
+	border-radius: 4px;
+    color: white;
+    height: 40px;
+    width: 96px;
+    border: 0px solid;
+}
+footer {
+	background-color: #00e6e6;
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px;
+	color: white;
+	}

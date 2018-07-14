@@ -1,0 +1,12 @@
+table, tr, td {
+    border: 1px solid black;
+}
+th {
+	text-align: center;
+}
+td:first-child {
+	color: red;
+	}
+tr:nth-child(even) {
+	background-color: blue;
+}

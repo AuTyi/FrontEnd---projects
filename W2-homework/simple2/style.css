@@ -1,0 +1,95 @@
+@import 'normalize.css';
+
+html, body{
+    height: 100%
+}
+
+.header-wrapper{
+    background-color: #555;
+}
+
+header{
+    width: 750px;
+    margin: 0 auto;
+}
+
+header img{
+    height: 30px;
+    margin-top: 10px;
+}
+
+nav{
+    float: right;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+nav li:first-child{
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+section{
+    min-height: 400px;
+    padding: 50px 0;
+}
+
+#home{
+    background-color: #eee;
+    text-align: center;
+}
+
+#home a{
+    display: inline-block;
+    margin-top: 250px;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+}
+
+#about{
+    text-align: right;
+}
+
+#about p{
+    text-align: justify;
+}
+
+#contacts{
+    background-color: azure;
+}
+
+#contacts img{
+    height: 250px;
+}
+
+.content-wrapper{
+    width: 750px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    font-style: italic;
+    color: white;
+    background-color: #333;
+}

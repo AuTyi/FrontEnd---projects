@@ -1,0 +1,33 @@
+.wrapper {
+	background-color: lightgrey;
+}
+/* Website width */
+header {
+    width: 750px;
+	height: 50px;
+	display: flex;
+   	justify-content: space-between;	
+	margin: 0 auto;
+	align-items: center;
+}
+.logo {
+	align-content: center; 
+	height: 46px;  
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline;
+}
+li:last-child {
+	margin-left: 0px;
+}
+logo {
+	margin: 2px;
+}
+
+img {
+	height: 96%;
+	margin: 2px;
+	}

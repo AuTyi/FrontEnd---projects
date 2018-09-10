@@ -1,0 +1,29 @@
+  article {
+    border: 5px solid;
+    border-color: blueviolet;
+    margin: 5px;
+    padding: 10px;
+  }
+  div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+@media only screen and (max-width: 768px) {
+  article {
+    border: 3px solid;
+    border-color: rgb(43, 86, 226);
+    min-width: 90%;
+  }
+  div {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  article {
+    border: 1px solid;
+    border-color: rgb(43, 226, 125);
+    width: 100%;
+  }
+}

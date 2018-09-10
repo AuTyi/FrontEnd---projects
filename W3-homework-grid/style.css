@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 10px;
+    width: 100vw;
+    height: 100vh;   
+  }
+  body>div {
+    background-color: rgb(241, 208, 15);
+    padding: 20px;
+    color: rgb(204, 9, 9);
+    font-size: 300%;
+  }
+  .one {
+      grid-column: 1 / span 4;
+  }
+  .two {
+    grid-row: 2 / span 4;
+  }
+  .four {
+    grid-column: 3 / span 2;   
+  }
+  .five {
+     grid-column: 2 / span 2;
+  }
+  .ten {
+    grid-column: 2 / span 3;
+  }

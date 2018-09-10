@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        
+        <title>Jsc</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+<body>
+    age<input type="number" id="years"/>
+    male<input type="radio" name="gender" value="m" />
+    female<input type="radio" name="gender" value="f" />
+    <input type="submit" onclick="myFunction()"/>
+    
+    <script>
+        function myFunction() {
+            let yearshave = document.getElementById('years').value;
+            let gender = document.querySelector('input[name=gender]:checked').value;
+
+            if (yearshave >= 18 && yearshave <=26 && gender == 'm') {
+            alert('Going to army');
+            }
+            else{
+            alert ('Nop');    
+            }
+        }
+        
+
+
+    </script>
+    
+</body>
+
+</html>

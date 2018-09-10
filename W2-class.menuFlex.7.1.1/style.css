@@ -1,0 +1,29 @@
+.wrapper {
+	background-color: lightgrey;
+}
+header {
+	height: 50px;
+	width: 600px;
+	margin: 0 auto;
+	display: flex;
+	align-content: center;
+	justify-content: space-between; 
+}
+nav {
+	display: flex;
+	align-items: center;
+  flex-flow: row wrap;
+}
+nav a {
+	padding-left: 14px;
+}
+img {
+	height: 44px;
+	margin-top: 5px;
+}
+@media all and (max-width: 300px) {
+  nav {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}

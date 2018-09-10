@@ -1,0 +1,28 @@
+.wrapper {
+   background-color: pink;
+}
+header {
+   width: 500px;
+   height: 60px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+img {
+	height: 50px;
+}
+ul {
+   list-display: none;
+}
+li {
+   display: inline;
+}
+a {
+   margin-left: 30px;
+}
+li:last-child(3) {
+   margin-right: 0px;
+}
+ 
